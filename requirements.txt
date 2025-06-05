@@ -1,0 +1,5 @@
+python-telegram-bot>=22.1 # Or a newer 13.x version. v20.x is async.
+requests
+python-dotenv
+pytz
+tzlocal
