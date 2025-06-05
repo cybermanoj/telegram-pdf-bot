@@ -1,34 +1,21 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*venv*/
-venv/
-pip-freeze.txt
-pip-selfcheck.json
-
 # Environment variables
 .env
 
-# SQLite Database file
-# You might choose to commit an empty schema, but not the data with user IDs.
-# For simplicity and safety in a public repo, ignore the DB file.
+# SQLite Database files
 *.db
 *.sqlite
 *.sqlite3
 pdf_bot_users.db 
-# If you have other DB files from testing:
-# bot_users.db 
 
-# Downloaded PDF (if it ever gets left behind)
+# Temporary downloaded PDF
 current_daily_document.pdf
 
 # Log files
 *.log
 
-# IDE / OS specific
-.vscode/
-.idea/
-*.DS_Store
-Thumbs.db
+# Python virtual environment
+venv/
+*venv*/ 
+
+# Pycache
+__pycache__/
